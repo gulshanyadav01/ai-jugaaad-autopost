@@ -1,0 +1,274 @@
+{
+ "items": [
+  {
+   "reel": 1,
+   "video": "AIJugaad_Reel01_resume_prompt.mp4",
+   "caption": "Resume bhejte ho aur reply hi nahi aata? 😶\nYe prompt copy karo, apna resume + job description paste karo, aur AI tumhe recruiter ki nazar se dikha dega ki galti kahan hai.\n\nComment \"RESUME\" aur main tumhe poora prompt DM kar dunga 📩\nUs dost ko bhejo jo abhi job dhundh raha hai 🙌\n\nFollow @ai.jugaaad — roz ek AI jugaad jo kaam aasaan kare.\n\n#aitools #chatgptprompts #resumetips #jobsearchindia #careertips #aiforwork #chatgpt #claudeai #freshers #placement",
+   "comment": "Full prompt 👇\nAct as a senior recruiter hiring for [ROLE] at [COMPANY]. Here is my resume: [PASTE RESUME]. Here is the job description: [PASTE JD]. 1) Give 3 brutal reasons you would reject me. 2) Rewrite my top 5 bullet points with numbers and impact. 3) List the JD keywords my resume is missing.",
+   "posted": true,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 3,
+   "video": "AIJugaad_Reel03_excel_formula.mp4",
+   "caption": "VLOOKUP, SUMIFS, XLOOKUP... sab ek prompt mein.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"EXCEL\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #excel #exceltips #googlesheets",
+   "comment": "Full prompt 👇\nI have an Excel sheet with columns: [LIST COLUMNS]. I want to [WHAT YOU NEED, e.g. total sales per region for March]. Give me the exact formula and which cell to put it in. Explain it in 2 lines like I'm a beginner.",
+   "posted": true,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 4,
+   "video": "AIJugaad_Reel04_angry_boss_email.mp4",
+   "caption": "Gusse mein reply = career mein galti.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"EMAIL\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #corporatelife #officelife #emailtips",
+   "comment": "Full prompt 👇\nHere is an email from my manager: [PASTE EMAIL]. Write a reply that is calm, professional and confident. Acknowledge the issue and give a clear plan with dates. Keep it under 120 words. Indian corporate tone, no over-apologising.",
+   "posted": true,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 2,
+   "video": "AIJugaad_Reel02_salary_negotiation.mp4",
+   "caption": "Pehla offer kabhi final offer nahi hota.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"SALARY\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #salarynegotiation #jobofferindia #careertips",
+   "comment": "Full prompt 👇\nAct as a salary negotiation coach in India. I got an offer for [ROLE] at [COMPANY] for [CTC]. My current CTC is [X] with [Y] years experience. 1. Give a realistic counter range for this role in [CITY]. 2. Write a polite email asking for [TARGET CTC]. 3. Give 3 replies if HR says the budget is fixed.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 6,
+   "video": "AIJugaad_Reel06_meeting_notes.mp4",
+   "caption": "Meeting khatam, kaam shuru. Notes AI banayega.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"MEETING\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #productivity #meetingnotes #worksmart",
+   "comment": "Full prompt 👇\nHere are my raw meeting notes or transcript: [PASTE]. Give me: 1. A 5-line summary 2. Decisions taken 3. Action items with owner and deadline in a table 4. A follow-up email to all attendees",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 8,
+   "video": "AIJugaad_Reel08_mock_interview.mp4",
+   "caption": "Practice AI ke saath, perform interviewer ke saamne.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"INTERVIEW\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #interviewtips #jobsearchindia #placement",
+   "comment": "Full prompt 👇\nAct as an interviewer at [COMPANY] for [ROLE]. Ask me 10 questions one by one, mixing technical and HR. Wait for my answer each time. Then score my answer out of 10 and show a better answer.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 5,
+   "video": "AIJugaad_Reel05_ppt_in_minutes.mp4",
+   "caption": "Raat 2 baje PPT banana ab band.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"PPT\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #powerpoint #presentationtips #studenthacks",
+   "comment": "Full prompt 👇\nMake an 8-slide presentation outline on [TOPIC] for [AUDIENCE]. For each slide give: a title, 3 bullet points and one chart or visual idea. Then write speaker notes I can say in 30 seconds per slide.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 24,
+   "video": "AIJugaad_Reel24_hinglish_to_email.mp4",
+   "caption": "Soch Hindi mein, likho perfect English mein.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"ENGLISH\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #englishspeaking #emailwriting #officelife",
+   "comment": "Full prompt 👇\nMain ye bolna chahta hoon: [HINGLISH MEIN LIKHO]. Isko professional English email mein likho, polite aur clear. 3 versions do: formal, friendly aur short.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 9,
+   "video": "AIJugaad_Reel09_linkedin_profile.mp4",
+   "caption": "Recruiters keywords search karte hain, kahaniyan nahi.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"LINKEDIN\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #linkedintips #personalbranding #jobsearch",
+   "comment": "Full prompt 👇\nHere is my experience: [PASTE]. Target role: [ROLE]. Write 3 LinkedIn headlines under 200 characters. Then write an About section in first person, 120 words, with keywords recruiters search for.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 12,
+   "video": "AIJugaad_Reel12_referral_message.mp4",
+   "caption": "Referral maangne ka sahi tareeka.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"REFERRAL\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #referral #jobsearchindia #networking",
+   "comment": "Full prompt 👇\nWrite a LinkedIn message to [NAME], a [ROLE] at [COMPANY], asking for a referral for [JOB]. Mention one specific thing about their work and my 2 strongest points: [POINTS]. Under 70 words, no begging.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 17,
+   "video": "AIJugaad_Reel17_long_pdf_summary.mp4",
+   "caption": "Padhne ka time nahi? Samajhne ka shortcut.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"PDF\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #productivity #aitools #studyhacks",
+   "comment": "Full prompt 👇\nRead this document: [UPLOAD PDF]. Give me: 1. A one-paragraph summary 2. The 7 most important points with page numbers 3. Anything surprising or risky 4. 3 questions I should ask about it",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 16,
+   "video": "AIJugaad_Reel16_self_appraisal.mp4",
+   "caption": "Jo dikhta hai, wahi bikta hai. Appraisal mein bhi.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"APPRAISAL\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #appraisal #salaryhike #careergrowth",
+   "comment": "Full prompt 👇\nHere is what I did this year: [PASTE]. Write my self-appraisal in 5 achievement bullets using: action, result, number. Then add 2 growth goals and a line asking for [PROMOTION or HIKE].",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 7,
+   "video": "AIJugaad_Reel07_leave_request.mp4",
+   "caption": "Chhutti maangna bhi ek skill hai.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"LEAVE\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #corporatelife #officehumor #worklifebalance",
+   "comment": "Full prompt 👇\nWrite a short leave request to my manager [NAME] for [DATES] because of [REASON]. Mention who will cover my work and that I'll be reachable for urgent issues. Polite but not begging. Under 80 words.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 13,
+   "video": "AIJugaad_Reel13_clean_messy_data.mp4",
+   "caption": "Duplicate, galat dates, caps names... ek prompt.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"DATA\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #excel #dataanalysis #googlesheets",
+   "comment": "Full prompt 👇\nHere are sample rows of my data: [PASTE 10 ROWS]. Problems: [e.g. names in caps, mixed date formats, duplicates]. Give me step-by-step Excel or Google Sheets steps, with formulas, to clean it.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 15,
+   "video": "AIJugaad_Reel15_tough_conversation.mp4",
+   "caption": "Ladna nahi, clearly bolna hai.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"TALK\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #officepolitics #corporatelife #communication",
+   "comment": "Full prompt 👇\nHelp me prepare for a conversation with [PERSON] about [ISSUE]. Give me an opening line, 3 points to make calmly, what they might say back, and how to respond without sounding defensive.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 14,
+   "video": "AIJugaad_Reel14_weekly_status.mp4",
+   "caption": "Kaam tumne kiya, dikhana bhi seekho.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"REPORT\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #corporatelife #productivity #worksmart",
+   "comment": "Full prompt 👇\nTurn these rough points into a weekly status update for my manager: [PASTE POINTS]. Sections: Done this week, In progress, Blockers, Next week. Crisp bullets. Highlight impact with numbers where possible.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 28,
+   "video": "AIJugaad_Reel28_prompt_writer.mp4",
+   "caption": "Achha output = achha prompt. Aur achha prompt AI likhega.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"PROMPT\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #promptengineering #chatgptprompts #aitips",
+   "comment": "Full prompt 👇\nYou are a prompt expert. I want help with: [TASK]. Ask me 5 questions to understand it better, then write the perfect reusable prompt for this task.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 19,
+   "video": "AIJugaad_Reel19_salary_budget.mp4",
+   "caption": "Salary ka plan pehle, kharcha baad mein.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"BUDGET\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #moneytips #budgeting #personalfinanceindia",
+   "comment": "Full prompt 👇\nMy monthly in-hand salary is [AMOUNT]. Fixed costs: [RENT, EMI, etc]. Goals: [GOALS]. Make a monthly budget split into needs, wants and savings, and give 5 ways to cut spending without feeling broke.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 26,
+   "video": "AIJugaad_Reel26_english_coach.mp4",
+   "caption": "Judge karne wala koi nahi. Bas practice.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"SPEAK\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #englishspeaking #spokenenglish #confidence",
+   "comment": "Full prompt 👇\nAct as my English speaking coach. We'll talk about [TOPIC]. After each of my replies, correct my grammar gently, suggest one better word, and ask the next question. Keep it simple and friendly.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 10,
+   "video": "AIJugaad_Reel10_learn_any_skill.mp4",
+   "caption": "Course ke paise bachao. Plan AI se banwao.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"LEARN\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #upskill #learnonline #selfimprovement",
+   "comment": "Full prompt 👇\nI want to learn [SKILL] in 30 days, spending [X] minutes a day. I am currently at [LEVEL]. Make a day-by-day plan with free resources, a small project each week and a quiz every Sunday.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 18,
+   "video": "AIJugaad_Reel18_resignation_email.mp4",
+   "caption": "Industry chhoti hai. Achhe se jao.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"RESIGN\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #resignation #jobswitch #corporatelife",
+   "comment": "Full prompt 👇\nWrite a resignation email to [MANAGER] from [ROLE]. Last working day: [DATE]. Thank them for 2 specific things: [THINGS]. Offer handover help. Warm, professional, under 120 words.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 22,
+   "video": "AIJugaad_Reel22_sql_no_code.mp4",
+   "caption": "Data se darr khatam.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"SQL\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #sql #dataanalyst #learncoding",
+   "comment": "Full prompt 👇\nMy table [TABLE] has columns [COLUMNS]. Write an SQL query to [WHAT YOU NEED]. Explain each line in simple words and tell me one common mistake to avoid.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 20,
+   "video": "AIJugaad_Reel20_daily_planner.mp4",
+   "caption": "Busy hona aur productive hona alag hai.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"PLAN\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #productivity #timemanagement #worksmart",
+   "comment": "Full prompt 👇\nHere is my to-do list: [PASTE]. My work hours: [TIME]. Prioritise using urgent vs important, estimate time for each task, and give me a time-blocked schedule for today with breaks.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 25,
+   "video": "AIJugaad_Reel25_two_offers.mp4",
+   "caption": "Job, city, course... clarity milegi.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"DECIDE\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #decisionmaking #careeradvice #lifehacks",
+   "comment": "Full prompt 👇\nCompare these two options: [OPTION A] vs [OPTION B]. My priorities: [LIST]. Make a weighted scoring table, list hidden costs of each, and ask me 3 questions before giving a final view.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 11,
+   "video": "AIJugaad_Reel11_explain_simple.mp4",
+   "caption": "Policy doc, research paper, legal notice... sab simple.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"SIMPLE\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #learning #studytips #hinglish",
+   "comment": "Full prompt 👇\nExplain this to me like I'm 15, in Hinglish: [PASTE TEXT]. Then give 5 key points, 3 terms I should know and one real-life example.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 21,
+   "video": "AIJugaad_Reel21_payment_followup.mp4",
+   "caption": "Kaam kiya hai, paisa haq hai.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"PAYMENT\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #freelancing #freelancerindia #smallbusiness",
+   "comment": "Full prompt 👇\nWrite 3 follow-up messages for a client who hasn't paid invoice [NO] of [AMOUNT], due on [DATE]. Message 1 friendly, message 2 firm, message 3 final with a late fee mention. WhatsApp style, short.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 27,
+   "video": "AIJugaad_Reel27_30_60_90_plan.mp4",
+   "caption": "Pehle 90 din career set karte hain.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"NEWJOB\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #newjob #careergrowth #corporatelife",
+   "comment": "Full prompt 👇\nI'm joining as [ROLE] at [COMPANY]. Make a 30-60-90 day plan: what to learn, who to meet, quick wins to deliver, and how to show results to my manager by day 90.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 23,
+   "video": "AIJugaad_Reel23_idea_roast.mp4",
+   "caption": "Dost tareef karenge. AI sach bolega.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"IDEA\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #startupindia #entrepreneur #businessideas",
+   "comment": "Full prompt 👇\nAct as a skeptical investor. My idea: [IDEA]. Give me the 5 strongest reasons it could fail, the riskiest assumption, and one cheap test I can run this week to check it.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 30,
+   "video": "AIJugaad_Reel30_cold_email_client.mp4",
+   "caption": "Cold email ko warm banao.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"CLIENT\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #sales #smallbusiness #freelancing",
+   "comment": "Full prompt 👇\nWrite a cold email to [NAME], [ROLE] at [COMPANY]. My service: [SERVICE]. One result I got for a similar client: [RESULT]. Open with something specific about their business. Under 90 words, one clear ask.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  },
+  {
+   "reel": 29,
+   "video": "AIJugaad_Reel29_fact_check_ai.mp4",
+   "caption": "AI smart hai, perfect nahi.\nYe prompt copy karo, ChatGPT, Claude ya Gemini mein paste karo, [brackets] ko apni details se bharo.\n\nComment \"CHECK\" aur main poora prompt DM kar dunga 📩\nKisi aise dost ko bhejo jise iski zaroorat hai 🙌\n\nFollow @ai.jugaaad for roz ek AI jugaad.\n\n#aitools #chatgptprompts #aiforwork #chatgpt #claudeai #aitips #factcheck #chatgpt",
+   "comment": "Full prompt 👇\nReview your last answer. List every factual claim and rate your confidence for each. Mark anything you're unsure about, and tell me what I should verify from an official source.",
+   "posted": false,
+   "media_id": null,
+   "posted_at": null
+  }
+ ]
+}

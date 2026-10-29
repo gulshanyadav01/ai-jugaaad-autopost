@@ -1,0 +1,44 @@
+name: Post next Reel
+
+on:
+  schedule:
+    # 12:27, 18:27 and 21:27 IST (cron is UTC; a few minutes early because GitHub runs can start late)
+    - cron: "57 6 * * *"
+    - cron: "57 12 * * *"
+    - cron: "57 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (check setup, post nothing)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          VIDEO_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reels
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+        run: python post.py
+      - name: Save queue
+        if: success()
+        run: |
+          git config user.name "ai-jugaaad-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add queue.json
+          git diff --cached --quiet || (git commit -m "Posted next Reel" && git push)
