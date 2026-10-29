@@ -4,7 +4,7 @@ Posts the next unposted Reel from queue.json to Instagram via the official
 Instagram API (Instagram Login), then adds the prompt as a comment.
 
 Env vars:
-  IG_ACCESS_TOKEN  long-lived Instagram user token (GitHub secret)
+  IG_ACCESS_TOKEN  never-expiring Facebook Page token (or Instagram-login token with API_HOST)
   VIDEO_BASE_URL   public base URL of docs/reels, e.g. https://USER.github.io/REPO/reels
   DRY_RUN=1        check token + show what would be posted, post nothing
   REFRESH_ONLY=1   refresh the token and print it to $GITHUB_OUTPUT (never to the log)
@@ -12,7 +12,9 @@ Env vars:
 import json, os, sys, time, urllib.parse, urllib.request, urllib.error
 from datetime import datetime, timezone
 
-API = "https://graph.instagram.com/v26.0"
+# FB login route (Page token) by default; set API_HOST=graph.instagram.com for Instagram-login tokens
+HOST = os.environ.get("API_HOST", "graph.facebook.com")
+API = f"https://{HOST}/v24.0"
 TOKEN = os.environ.get("IG_ACCESS_TOKEN", "").strip()
 QUEUE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "queue.json")
 
@@ -56,9 +58,23 @@ def main():
     if os.environ.get("REFRESH_ONLY") == "1":
         return refresh()
 
-    me = call("GET", f"{API}/me", {"fields": "user_id,username"})
-    ig_id = me.get("user_id") or me.get("id")
-    print(f"Logged in as @{me.get('username')} (id {ig_id})")
+    ig_id = os.environ.get("IG_USER_ID", "").strip()
+    if not ig_id:
+        if "instagram.com" in HOST:
+            me = call("GET", f"{API}/me", {"fields": "user_id,username"})
+            ig_id = me.get("user_id") or me.get("id")
+        else:
+            me = call("GET", f"{API}/me", {"fields": "name,instagram_business_account"})
+            if me.get("instagram_business_account"):
+                ig_id = me["instagram_business_account"]["id"]
+            else:  # user token: look through the user's Pages
+                pages = call("GET", f"{API}/me/accounts", {"fields": "name,instagram_business_account"})
+                hit = [p for p in pages.get("data", []) if p.get("instagram_business_account")]
+                if not hit:
+                    sys.exit("No Instagram account linked to any Facebook Page this token can see.")
+                ig_id = hit[0]["instagram_business_account"]["id"]
+    acct = call("GET", f"{API}/{ig_id}", {"fields": "username"})
+    print(f"Posting as @{acct.get('username')} (id {ig_id})")
 
     q = json.load(open(QUEUE, encoding="utf-8"))
     nxt = next((i for i in q["items"] if not i["posted"]), None)
