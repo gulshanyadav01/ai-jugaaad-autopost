@@ -31,6 +31,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -47,4 +49,7 @@ jobs:
           git config user.name "ai-jugaaad-bot"
           git config user.email "actions@users.noreply.github.com"
           git add queue.json
-          git diff --cached --quiet || (git commit -m "Posted next Reel" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Posted next Reel"
+          for i in 1 2 3; do git pull --rebase origin main && git push && exit 0; sleep 5; done
+          exit 1
