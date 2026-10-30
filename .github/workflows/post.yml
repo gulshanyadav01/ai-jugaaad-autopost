@@ -2,17 +2,21 @@ name: Post next Reel
 
 on:
   schedule:
-    # ~12:35, 18:35 and 21:35 IST (cron is UTC). Off the top of the hour,
-    # because GitHub delays or drops scheduled runs most around :00.
-    - cron: "4 7 * * *"
-    - cron: "4 13 * * *"
-    - cron: "4 16 * * *"
+    # Backup timer only. cron-job.org triggers the exact 12:30 / 18:30 / 21:30 IST runs;
+    # these fire ~20 min later and skip themselves if that slot already posted.
+    - cron: "19 7 * * *"
+    - cron: "19 13 * * *"
+    - cron: "19 16 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run (check setup, post nothing)"
         type: boolean
         default: true
+      force:
+        description: "Post even if this time slot already has a post"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -35,6 +39,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           VIDEO_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reels
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force && '1' || '0' }}
         run: python post.py
       - name: Save queue
         if: success()

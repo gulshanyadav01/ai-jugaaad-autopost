@@ -10,7 +10,7 @@ Env vars:
   REFRESH_ONLY=1   refresh the token and print it to $GITHUB_OUTPUT (never to the log)
 """
 import json, os, sys, time, urllib.parse, urllib.request, urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 # FB login route (Page token) by default; set API_HOST=graph.instagram.com for Instagram-login tokens
 HOST = os.environ.get("API_HOST", "graph.facebook.com")
@@ -52,6 +52,23 @@ def refresh():
             fh.write(f"token={new}\n")
 
 
+IST = timezone(timedelta(hours=5, minutes=30))
+SLOTS = [(12, 30), (18, 30), (21, 30)]  # IST posting slots
+
+
+def current_slot_start(now):
+    """Start of the most recent posting slot (IST) at or before `now`."""
+    loc = now.astimezone(IST)
+    cands = []
+    for d in (0, 1):
+        day = loc.date() - timedelta(days=d)
+        for h, m in SLOTS:
+            st = datetime(day.year, day.month, day.day, h, m, tzinfo=IST) - timedelta(minutes=15)
+            if st <= loc:
+                cands.append(st)
+    return max(cands)
+
+
 def main():
     if not TOKEN:
         sys.exit("IG_ACCESS_TOKEN is not set. Add it under repo Settings > Secrets > Actions.")
@@ -77,6 +94,17 @@ def main():
     print(f"Posting as @{acct.get('username')} (id {ig_id})")
 
     q = json.load(open(QUEUE, encoding="utf-8"))
+    # One Reel per slot: if this slot already has a post (e.g. a late GitHub run
+    # after the exact-time trigger), skip. FORCE=1 bypasses this for manual runs.
+    if os.environ.get("FORCE") != "1" and os.environ.get("DRY_RUN") != "1":
+        times = [datetime.fromisoformat(i["posted_at"]) for i in q["items"] if i.get("posted_at")]
+        if times:
+            last = max(times)
+            slot = current_slot_start(datetime.now(timezone.utc))
+            if last >= slot:
+                print(f"Already posted in this slot (last post {last.astimezone(IST):%d %b %H:%M} IST). Skipping.")
+                return
+
     nxt = next((i for i in q["items"] if not i["posted"]), None)
     if not nxt:
         print("Queue empty: every Reel has been posted. Add new Reels to queue.json.")
