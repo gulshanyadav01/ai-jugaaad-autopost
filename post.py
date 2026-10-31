@@ -70,6 +70,9 @@ def current_slot_start(now):
 
 
 def main():
+    if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "PAUSED")):
+        print("Auto-posting is paused (PAUSED file in repo). Delete it to resume.")
+        return
     if not TOKEN:
         sys.exit("IG_ACCESS_TOKEN is not set. Add it under repo Settings > Secrets > Actions.")
     if os.environ.get("REFRESH_ONLY") == "1":
